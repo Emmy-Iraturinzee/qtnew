@@ -775,9 +775,7 @@ h6,
     width: 100%;
 }
 @media (max-width: 700px) {
-    .video-overlay {
-        width: 200%;
-    }
+ 
 
     .navbar-toggler{
        margin-top: -66px !important;
