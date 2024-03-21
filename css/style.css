@@ -11,6 +11,7 @@
 
 body{
   background: linear-gradient(180deg, rgba(1,9,10,1) 0%, rgba(6,63,77,1) 100%);
+  box-sizing: border-box;
 
 }
 /*** Spinner ***/
@@ -807,6 +808,10 @@ h6,
         transform: rotateY(-180deg);
         -webkit-transform:rotateY(-180deg); /* Safari and Chrome */
         -moz-transform:rotateY(-180deg); /* Firefox */
+        display: inline-block;
+position: relative; /* allows repositioning */
+/* move the whole width of the image to the right */
+
 
     }
     
