@@ -804,6 +804,8 @@ h6,
         max-height: 100vh;
         object-fit: cover;
         z-index: -1;
+        width: 100%;
+        height: 100%;
         margin-top: -75px;
         transform: rotateY(-180deg);
         -webkit-transform:rotateY(-180deg); /* Safari and Chrome */
@@ -811,6 +813,9 @@ h6,
         display: inline-block;
 position: relative; /* allows repositioning */
 /* move the whole width of the image to the right */
+left: 0;
+top: 0;
+right: 0;
 
 
     }
