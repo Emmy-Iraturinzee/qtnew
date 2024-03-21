@@ -789,6 +789,7 @@ h6,
 @media (max-width: 800px) {
     .video-overlay {
         width: 120%;
+        height: 105%;
       
     }
 .testimonials{
